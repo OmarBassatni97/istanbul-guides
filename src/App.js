@@ -4,14 +4,14 @@ import ExploreCards from "./components/ExploreCards";
 import FeaturedService from "./components/FeaturedService";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
+import MarqueeSlider from "./components/MarqueeSlider";
 
 function App() {
   return (
     <>
       <Navbar />
       <Banner />
-      <Slider />
+      <MarqueeSlider />
       <ExploreCards />
       <FeaturedService />
       <Footer />

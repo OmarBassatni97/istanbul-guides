@@ -21,10 +21,18 @@ const Banner = () => {
       </div>
       <div className="banner-search">
         <div className="serach-category select">
-          <select name="category" id="category"></select>
+          <select name="category" id="category">
+            <option selected value="">
+              Choose Service
+            </option>
+          </select>
         </div>
         <div className="search-service select">
-          <select name="service" id="service"></select>
+          <select name="service" id="service">
+            <option selected value="">
+              Choose Category
+            </option>
+          </select>
         </div>
         <div className="search-button">
           <button>Search</button>

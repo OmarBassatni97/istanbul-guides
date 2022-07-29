@@ -3,26 +3,20 @@ import { images } from "../data.js";
 
 const Slider = () => {
   return (
-    <section className="slider-section">
-      <div className=" relative flex items-center justify-center ">
-        {images.map((item, index) => (
+    <div className="slider w-full mt-10  gap-4 flex ">
+      {images.map((item) => (
+        <div className=" sliderimage rounded-lg w-[20%] relative">
           <img
-            className="w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300"
+            className=" rounded-lg w-full overflow-hidden  cursor-pointer ease-in-out duration-300"
             src={item.src}
             alt={item.title}
           />
-        ))}
-      </div>
-      <div className=" relative flex items-center justify-center">
-        {images.map((item, index) => (
-          <img
-            className="w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300"
-            src={item.src}
-            alt={item.title}
-          />
-        ))}
-      </div>
-    </section>
+          <button className="sliderbutton rounded-[50px] bg-sky-900 px-4 py-2 absolute top-[45%] left-[50%]  text-white">
+            {item.link}
+          </button>
+        </div>
+      ))}
+    </div>
   );
 };
 

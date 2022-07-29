@@ -9,10 +9,10 @@ const Navbar = () => {
         <p>GUIDES</p>
       </div>
       <div className="nav">
-        <a href="#">Home Page</a>
-        <a href="#">About Us</a>
-        <a href="#">Guides Istanbul</a>
-        <a href="#">Contact Us</a>
+        <a href="/">Home Page</a>
+        <a href="/">About Us</a>
+        <a href="/">Guides Istanbul</a>
+        <a href="/">Contact Us</a>
       </div>
       <div className="nav-icons">
         <div className="search-icon">
