@@ -3,7 +3,7 @@ import { images } from "../data.js";
 
 const Slider = () => {
   return (
-    <div className="slider w-full mt-10  gap-4 flex ">
+    <div className="slider w-full mt-16  gap-4 flex ">
       {images.map((item) => (
         <div className=" sliderimage rounded-lg w-[20%] relative">
           <img

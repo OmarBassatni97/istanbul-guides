@@ -4,7 +4,7 @@ import Slider from "./Slider";
 
 const MarqueeSlider = () => {
   return (
-    <section className="mt-36">
+    <section className="mt-52">
       <div className="w-full h-[200px] overflow-hidden ">
         <Marquee
           speed={40}

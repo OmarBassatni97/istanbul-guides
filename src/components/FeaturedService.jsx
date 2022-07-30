@@ -4,16 +4,16 @@ import { Rating } from "@mui/material";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 const FeaturedService = () => {
   return (
-    <section className="w-full h-[600px] ">
+    <section className="w-full md:h-[600px] h-[full] ">
       <div className="text-center mb-10 items-center">
         <h1 className="text-[30px] mb-5 ">Featured Sevces</h1>
         <p className="opacity-70">
           Discover our best services those got high rating
         </p>
       </div>
-      <div className="flex  gap-3 justify-center items-center ">
+      <div className="md:flex  gap-3 justify-center items-center ">
         {data.map((item) => (
-          <div className=" relative shadow-lg rounded-lg overflow-hidden h-[350px] w-[280px]">
+          <div className=" relative shadow-lg rounded-lg overflow-hidden h-[350px] md:w-[280px] w-[89%]">
             <img
               className="h-[50%] object-cover overflow-hidden"
               src={item.src}

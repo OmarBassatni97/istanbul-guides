@@ -10,8 +10,8 @@ import CopyrightIcon from "@mui/icons-material/Copyright";
 
 const Footer = () => {
   return (
-    <footer className="items-center bg-[#202942] h-[400px]  text-white">
-      <div className="flex justify-center gap-10 leading-9">
+    <footer className="items-center bg-[#202942] md:h-[400px]  h-[1150px]  text-white">
+      <div className="md:flex justify-center mx-2 gap-10 leading-9">
         <div className="mt-5">
           <h1 className="text-[32px]">Guides</h1>
           <h3>
@@ -69,22 +69,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-evenly my-20">
+      <div className="md:flex mx-2 md:justify-evenly text-center my-20">
         <div>
-          <div className="flex justify-evenly">
+          <div className="md:flex text-center justify-evenly">
             <p>
               2022 <CopyrightIcon /> Copyright
               <span className="text-sky-800">Guides Istanbul.</span>
               All Rights Reserved{" "}
             </p>
-            <div>
-              <a href="/">Terms of Condition</a>
-              <a href="/">Privacy Policy</a>
-            </div>
           </div>
         </div>
 
-        <div className="gap-2 flex">
+        <div className="gap-2 text-center md:flex">
           <a href="/">Terms of Condition</a>
           <a href="/">Privacy Policy</a>
         </div>

@@ -96,6 +96,7 @@ nav {
   height: 100%;
   padding: 10px;
   border: transparent;
+  border-radius: 5px;
 }
 .search-button button {
   padding: 6px 20px;
@@ -154,5 +155,33 @@ nav {
   }
   100% {
     transform: translateY(0px);
+  }
+}
+@media screen and (max-width: 450px) {
+  body {
+    font-size: 12px;
+    background-color: white;
+  }
+  nav {
+    width: 100vw;
+    justify-content: center;
+  }
+  nav a {
+    visibility: hidden;
+  }
+  .banner-img img {
+    height: 80vh;
+  }
+  .banner-search {
+    display: block;
+    width: 95vw;
+    height: 40%;
+    left: 3%;
+    bottom: -28%;
+  }
+  .search-button,
+  .select {
+    width: 100%;
+    padding-bottom: 20px;
   }
 }
