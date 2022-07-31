@@ -18,7 +18,7 @@ const Slider = () => {
           </div>
         ))}
       </div>
-      <div className="slider w-full mt-10 gap-4 grid grid-flow-col auto-cols-[15%] scrollbar-hide overflow-x-hidden overscroll-x-contain ">
+      <div className="slider w-full mt-12 gap-4 grid grid-flow-col auto-cols-[15%] scrollbar-hide overflow-x-hidden overscroll-x-contain ">
         {images.map((item) => (
           <div className=" sliderimage rounded-lg w-full relative">
             <img
