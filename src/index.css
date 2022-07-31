@@ -123,6 +123,18 @@ nav {
   right: 25px;
   z-index: 20;
 }
+.slider {
+}
+.sliderimage {
+  animation: scroll 10s infinite linear;
+}
+@keyframes scroll {
+  0% {
+    transform: translate3d(16%, 0, 0);
+    overflow-x: scroll;
+  }
+}
+
 .icon-style {
   background-color: #1d71a1;
   border: 2px solid #fff;

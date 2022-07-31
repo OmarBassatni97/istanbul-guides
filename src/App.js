@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import MarqueeSlider from "./components/MarqueeSlider";
 import ScrollToTop from "./subcomponents/ScrollToTop";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Banner />
-      <MarqueeSlider />
+      <Slider />
+      {/* <MarqueeSlider /> */}
       <ExploreCards />
       <FeaturedService />
       <Footer />
